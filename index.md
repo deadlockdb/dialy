@@ -10,6 +10,7 @@
 [2020/04/26 postgresql libpq, pg_dump](20200426.html)  
 [2020/04/27 Windows10 keyboard](20200427.html)  
 [2020/04/29 Oracle Cloud](20200429.html)  
+[2020/04/30 Oracle Cloud](20200430.html)  
 
 
 
