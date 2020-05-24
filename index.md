@@ -1,6 +1,7 @@
 
 # 2020/05
 
+[2020/05/24 PostgreSQL](20200524.html)  
 [2020/05/02 PostgreSQL, Visual Studio 2019](20200502.html)  
 [2020/05/01 PostgreSQL, Visual Studio 2019](20200501.html)  
 
