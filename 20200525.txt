@@ -1,0 +1,35 @@
+
+# 2020/05/24
+
+# PostgreSQL
+
+## create user, createdb
+OSのコマンドラインから、以下でuserを作成
+```
+createuser <username>
+```
+
+userのためのスキーマを作成するSQL
+```
+create schema <schemaname> authorization <username>;
+```
+
+スキーマの検索順序の設定
+```
+set search_path to schema1, public
+```
+
+スキーマの検索順序の確認
+デフォルトの設定では、$user, publicのように自ユーザーが$userで表示される
+```
+show search_path
+```
+
+以下のSQLでsearch_pathの先頭のスキーマを取得できる
+この場合は、search_pathが$user, publicの場合、$userではなく自ユーザー名の
+スキーマが取得できる
+```
+select current_schema()
+```
+
+
