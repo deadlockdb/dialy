@@ -1,5 +1,6 @@
 
 # 2020/06
+[2020/06/05 PostgreSQL (git)](20200605.html)  
 [2020/06/01 bash on windows](20200601.html)  
 
 # 2020/05
